@@ -56,4 +56,4 @@ spec:
   - name: http
     port: 8080
     targetPort: 8080
-    nodePort: 31393
+    nodePort: 31393           # This will forcefully spin up the k8s service on port 31393 and we are doing this to have hardcoded port match with hardcoded API BASE URL in react app container
