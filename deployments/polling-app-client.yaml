@@ -36,4 +36,4 @@ spec:
   - name: http
     port: 80
     targetPort: 80
-    nodePort: 31392
+    nodePort: 31392             # This will forcefully spin up the k8s service on port 31392 and we are doing this to have hardcoded port allowed for spring boot cors origin
